@@ -1,0 +1,2 @@
+It extract illumination and intrinsic image from a picture. 
+The extract algorithm is following the idea in paper "User assisted intrinsic images" from SIGGRAPH Asia 2009.

@@ -1,0 +1,65 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ImageDecomposition - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/ImageDecomposition.res" /d "NDEBUG" /d "_AFXDLL" "E:\code\ImageDecomposition\ImageDecomposition.rc"" 
+Creating temporary file "C:\DOCUME~1\zhll\LOCALS~1\Temp\RSP50.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /Fp"Release/ImageDecomposition.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\code\ImageDecomposition\AlbedoDlg.cpp"
+"E:\code\ImageDecomposition\Color.cpp"
+"E:\code\ImageDecomposition\DisplayerDlg.cpp"
+"E:\code\ImageDecomposition\ImageDecomp.cpp"
+"E:\code\ImageDecomposition\ImageDecomposition.cpp"
+"E:\code\ImageDecomposition\ImageDecompositionDlg.cpp"
+"E:\code\ImageDecomposition\Img.cpp"
+"E:\code\ImageDecomposition\SaveFileDlg.cpp"
+"E:\code\ImageDecomposition\SelectFileDlg.cpp"
+"E:\code\ImageDecomposition\ShadingDlg.cpp"
+"E:\code\ImageDecomposition\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\zhll\LOCALS~1\Temp\RSP50.tmp" 
+Creating temporary file "C:\DOCUME~1\zhll\LOCALS~1\Temp\RSP51.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/ImageDecomposition.pdb" /machine:I386 /out:"Release/ImageDecomposition.exe" 
+.\Release\AlbedoDlg.obj
+.\Release\Color.obj
+.\Release\DisplayerDlg.obj
+.\Release\ImageDecomp.obj
+.\Release\ImageDecomposition.obj
+.\Release\ImageDecompositionDlg.obj
+.\Release\Img.obj
+.\Release\SaveFileDlg.obj
+.\Release\SelectFileDlg.obj
+.\Release\ShadingDlg.obj
+.\Release\StdAfx.obj
+.\Release\ImageDecomposition.res
+]
+Creating command line "link.exe @C:\DOCUME~1\zhll\LOCALS~1\Temp\RSP51.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+AlbedoDlg.cpp
+Color.cpp
+DisplayerDlg.cpp
+ImageDecomp.cpp
+ImageDecomposition.cpp
+ImageDecompositionDlg.cpp
+Img.cpp
+SaveFileDlg.cpp
+SelectFileDlg.cpp
+ShadingDlg.cpp
+StdAfx.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+ImageDecomposition.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
